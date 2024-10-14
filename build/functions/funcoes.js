@@ -1,4 +1,6 @@
 "use strict";
 function login(username) {
-    console.log('Bem-vindo', username);
+    let message = "Bem-vindo " + username;
+    console.log(message);
 }
+login("sujeito");
